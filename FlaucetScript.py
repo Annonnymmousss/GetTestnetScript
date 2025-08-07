@@ -5,7 +5,7 @@ from playwright.async_api import async_playwright
 # CONFIGURATION
 FAUCET_URL = "https://cloud.google.com/application/web3/faucet/ethereum/sepolia"
 WALLET_ADDRESS = "0x9A5A1F42f6a790A0423C19B7FC1Dd5F4Fef4A529"
-TRIGGER_TIME = "00:53"
+TRIGGER_TIME = "00:54"
 
 async def claim_sepolia_eth():
     async with async_playwright() as p:
